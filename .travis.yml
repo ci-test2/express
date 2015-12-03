@@ -4,12 +4,12 @@ build_image: shippable/minv2
 
 node_js:
   - "0.10"
-  - "0.11"
-  - "0.8"
+ # - "0.11"
+  #- "0.8"
 
 env:
  - Foo=bar
- - Bar=foo
+ #- Bar=foo
  
 matrix:
   allow_failures:
@@ -29,6 +29,11 @@ after_script:
   
 notifications:
   email:
-    test_ci2@yahoo.in 
+    recipients:
+      - test_ci2@yahoo.in 
+      - testnotifications.beta@yahoo.in
+    on_success: always
+    on_failure: always
+  irc: "chat.freenode.net#test-irc"
 
 archive: true
