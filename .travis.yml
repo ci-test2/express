@@ -32,7 +32,7 @@ notifications:
     recipients:
       - test_ci2@yahoo.in 
       - testnotifications.beta@yahoo.in
-    on_success: change
+    on_success: never
     on_failure: always
   irc: "chat.freenode.net#test-irc"
 
