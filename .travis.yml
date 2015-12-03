@@ -7,7 +7,7 @@ node_js:
   - "0.11"
 env:
   - FOO=bar
-  - BAR=foo
+#  - BAR=foo
  
 matrix:
   allow_failures:
