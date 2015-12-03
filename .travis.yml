@@ -28,10 +28,7 @@ after_script:
   - cp README.md ./shippable
   
 notifications:
-     email: false
+  email:
+    test_ci2@yahoo.in 
 
 archive: true
-
-#cache: true
-
-
