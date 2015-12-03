@@ -36,4 +36,4 @@ notifications:
     on_failure: always
   irc: "chat.freenode.net#test-irc"
 
-archive: true
+#archive: true
