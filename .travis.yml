@@ -35,8 +35,8 @@ notifications:
     on_success: never
     on_failure: always
   irc: 
-    pull_requests: true
-    channels:
+    #pull_requests: true
+    #channels:
       - "chat.freenode.net#test-irc"
 
 #archive: true
